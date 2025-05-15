@@ -1,0 +1,1374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680882D52DBF391D00A5DEF9 /* DAP.test Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 680882D42DBF391D00A5DEF9 /* DAP.test Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8161507E2DE8750900B0281D /* DAP.test Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 680882D42DBF391D00A5DEF9 /* DAP.test Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		680882D62DBF391D00A5DEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+		680882E42DBF391E00A5DEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+		680882EE2DBF391E00A5DEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+		6850CECA2DD36A870080F5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6850CEB82DD36A860080F5FD;
+			remoteInfo = DAP_MacLogger;
+		};
+		6850CED42DD36A870080F5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6850CEB82DD36A860080F5FD;
+			remoteInfo = DAP_MacLogger;
+		};
+		6850CEE92DD36C480080F5FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+		816150642DE8735E00B0281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816150562DE8735D00B0281D;
+			remoteInfo = DAPiOSApp;
+		};
+		8161506E2DE8735E00B0281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816150562DE8735D00B0281D;
+			remoteInfo = DAPiOSApp;
+		};
+		8161507F2DE8750900B0281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+		816150822DE8752900B0281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 680882C82DBF391D00A5DEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 680882D32DBF391D00A5DEF9;
+			remoteInfo = "DAP.test Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		680882FA2DBF391E00A5DEF9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				680882D52DBF391D00A5DEF9 /* DAP.test Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+		6850CEEB2DD36C480080F5FD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+			);
+			name = "Embed Watch Content";
+		};
+		816150812DE8750900B0281D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolder = Product;
+			files = (
+				8161507E2DE8750900B0281D /* DAP.test Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		680882CE2DBF391D00A5DEF9 /* DAP.test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAP.test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		680882D42DBF391D00A5DEF9 /* DAP.test Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAP.test Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680882E32DBF391E00A5DEF9 /* DAP.test Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAP.test Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		680882ED2DBF391E00A5DEF9 /* DAP.test Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAP.test Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6850CEB92DD36A860080F5FD /* DAP_MacLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAP_MacLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6850CEC92DD36A870080F5FD /* DAP_MacLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAP_MacLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6850CED32DD36A870080F5FD /* DAP_MacLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAP_MacLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816150572DE8735D00B0281D /* DAPiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAPiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816150632DE8735E00B0281D /* DAPiOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAPiOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8161506D2DE8735E00B0281D /* DAPiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAPiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		684533B12DD372E100CA4CD9 /* Exceptions for "DAP_MacLogger" folder in "DAP.test Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				_CSVLogger.swift,
+			);
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		680882D82DBF391D00A5DEF9 /* DAP.test Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP.test Watch App";
+			sourceTree = "<group>";
+		};
+		680882E62DBF391E00A5DEF9 /* DAP.test Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP.test Watch AppTests";
+			sourceTree = "<group>";
+		};
+		680882F02DBF391E00A5DEF9 /* DAP.test Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "DAP.test Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		6850CEBA2DD36A860080F5FD /* DAP_MacLogger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				684533B12DD372E100CA4CD9 /* Exceptions for "DAP_MacLogger" folder in "DAP.test Watch App" target */,
+			);
+			path = DAP_MacLogger;
+			sourceTree = "<group>";
+		};
+		6850CECC2DD36A870080F5FD /* DAP_MacLoggerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DAP_MacLoggerTests;
+			sourceTree = "<group>";
+		};
+		6850CED62DD36A870080F5FD /* DAP_MacLoggerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DAP_MacLoggerUITests;
+			sourceTree = "<group>";
+		};
+		816150582DE8735D00B0281D /* DAPiOSApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DAPiOSApp;
+			sourceTree = "<group>";
+		};
+		816150662DE8735E00B0281D /* DAPiOSAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DAPiOSAppTests;
+			sourceTree = "<group>";
+		};
+		816150702DE8735E00B0281D /* DAPiOSAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DAPiOSAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680882D12DBF391D00A5DEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		680882E02DBF391E00A5DEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		680882EA2DBF391E00A5DEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6850CEB62DD36A860080F5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6850CEC62DD36A870080F5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6850CED02DD36A870080F5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		816150542DE8735D00B0281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		816150602DE8735E00B0281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8161506A2DE8735E00B0281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680882C72DBF391D00A5DEF9 = {
+			isa = PBXGroup;
+			children = (
+				680882D82DBF391D00A5DEF9 /* DAP.test Watch App */,
+				680882E62DBF391E00A5DEF9 /* DAP.test Watch AppTests */,
+				680882F02DBF391E00A5DEF9 /* DAP.test Watch AppUITests */,
+				6850CEBA2DD36A860080F5FD /* DAP_MacLogger */,
+				6850CECC2DD36A870080F5FD /* DAP_MacLoggerTests */,
+				6850CED62DD36A870080F5FD /* DAP_MacLoggerUITests */,
+				816150582DE8735D00B0281D /* DAPiOSApp */,
+				816150662DE8735E00B0281D /* DAPiOSAppTests */,
+				816150702DE8735E00B0281D /* DAPiOSAppUITests */,
+				6850CEE72DD36C480080F5FD /* Frameworks */,
+				680882CF2DBF391D00A5DEF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680882CF2DBF391D00A5DEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680882CE2DBF391D00A5DEF9 /* DAP.test.app */,
+				680882D42DBF391D00A5DEF9 /* DAP.test Watch App.app */,
+				680882E32DBF391E00A5DEF9 /* DAP.test Watch AppTests.xctest */,
+				680882ED2DBF391E00A5DEF9 /* DAP.test Watch AppUITests.xctest */,
+				6850CEB92DD36A860080F5FD /* DAP_MacLogger.app */,
+				6850CEC92DD36A870080F5FD /* DAP_MacLoggerTests.xctest */,
+				6850CED32DD36A870080F5FD /* DAP_MacLoggerUITests.xctest */,
+				816150572DE8735D00B0281D /* DAPiOSApp.app */,
+				816150632DE8735E00B0281D /* DAPiOSAppTests.xctest */,
+				8161506D2DE8735E00B0281D /* DAPiOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6850CEE72DD36C480080F5FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		680882CD2DBF391D00A5DEF9 /* DAP.test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680882FB2DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test" */;
+			buildPhases = (
+				680882CC2DBF391D00A5DEF9 /* Resources */,
+				680882FA2DBF391E00A5DEF9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680882D72DBF391D00A5DEF9 /* PBXTargetDependency */,
+			);
+			name = DAP.test;
+			productName = DAP.test;
+			productReference = 680882CE2DBF391D00A5DEF9 /* DAP.test.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		680882D32DBF391D00A5DEF9 /* DAP.test Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680882F72DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch App" */;
+			buildPhases = (
+				680882D02DBF391D00A5DEF9 /* Sources */,
+				680882D12DBF391D00A5DEF9 /* Frameworks */,
+				680882D22DBF391D00A5DEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				680882D82DBF391D00A5DEF9 /* DAP.test Watch App */,
+			);
+			name = "DAP.test Watch App";
+			productName = "DAP.test Watch App";
+			productReference = 680882D42DBF391D00A5DEF9 /* DAP.test Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		680882E22DBF391E00A5DEF9 /* DAP.test Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680882FE2DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch AppTests" */;
+			buildPhases = (
+				680882DF2DBF391E00A5DEF9 /* Sources */,
+				680882E02DBF391E00A5DEF9 /* Frameworks */,
+				680882E12DBF391E00A5DEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680882E52DBF391E00A5DEF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				680882E62DBF391E00A5DEF9 /* DAP.test Watch AppTests */,
+			);
+			name = "DAP.test Watch AppTests";
+			productName = "DAP.test Watch AppTests";
+			productReference = 680882E32DBF391E00A5DEF9 /* DAP.test Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		680882EC2DBF391E00A5DEF9 /* DAP.test Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680883012DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch AppUITests" */;
+			buildPhases = (
+				680882E92DBF391E00A5DEF9 /* Sources */,
+				680882EA2DBF391E00A5DEF9 /* Frameworks */,
+				680882EB2DBF391E00A5DEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				680882EF2DBF391E00A5DEF9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				680882F02DBF391E00A5DEF9 /* DAP.test Watch AppUITests */,
+			);
+			name = "DAP.test Watch AppUITests";
+			productName = "DAP.test Watch AppUITests";
+			productReference = 680882ED2DBF391E00A5DEF9 /* DAP.test Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6850CEB82DD36A860080F5FD /* DAP_MacLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6850CEDB2DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLogger" */;
+			buildPhases = (
+				6850CEB52DD36A860080F5FD /* Sources */,
+				6850CEB62DD36A860080F5FD /* Frameworks */,
+				6850CEB72DD36A860080F5FD /* Resources */,
+				6850CEEB2DD36C480080F5FD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6850CEEA2DD36C480080F5FD /* PBXTargetDependency */,
+			);
+			name = DAP_MacLogger;
+			productName = DAP_MacLogger;
+			productReference = 6850CEB92DD36A860080F5FD /* DAP_MacLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6850CEC82DD36A870080F5FD /* DAP_MacLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6850CEDE2DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLoggerTests" */;
+			buildPhases = (
+				6850CEC52DD36A870080F5FD /* Sources */,
+				6850CEC62DD36A870080F5FD /* Frameworks */,
+				6850CEC72DD36A870080F5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6850CECB2DD36A870080F5FD /* PBXTargetDependency */,
+			);
+			name = DAP_MacLoggerTests;
+			productName = DAP_MacLoggerTests;
+			productReference = 6850CEC92DD36A870080F5FD /* DAP_MacLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6850CED22DD36A870080F5FD /* DAP_MacLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6850CEE12DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLoggerUITests" */;
+			buildPhases = (
+				6850CECF2DD36A870080F5FD /* Sources */,
+				6850CED02DD36A870080F5FD /* Frameworks */,
+				6850CED12DD36A870080F5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6850CED52DD36A870080F5FD /* PBXTargetDependency */,
+			);
+			name = DAP_MacLoggerUITests;
+			productName = DAP_MacLoggerUITests;
+			productReference = 6850CED32DD36A870080F5FD /* DAP_MacLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		816150562DE8735D00B0281D /* DAPiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816150752DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSApp" */;
+			buildPhases = (
+				816150532DE8735D00B0281D /* Sources */,
+				816150542DE8735D00B0281D /* Frameworks */,
+				816150552DE8735D00B0281D /* Resources */,
+				816150812DE8750900B0281D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816150802DE8750900B0281D /* PBXTargetDependency */,
+				816150832DE8752900B0281D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				816150582DE8735D00B0281D /* DAPiOSApp */,
+			);
+			name = DAPiOSApp;
+			productName = DAPiOSApp;
+			productReference = 816150572DE8735D00B0281D /* DAPiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816150622DE8735E00B0281D /* DAPiOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816150782DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSAppTests" */;
+			buildPhases = (
+				8161505F2DE8735E00B0281D /* Sources */,
+				816150602DE8735E00B0281D /* Frameworks */,
+				816150612DE8735E00B0281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816150652DE8735E00B0281D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				816150662DE8735E00B0281D /* DAPiOSAppTests */,
+			);
+			name = DAPiOSAppTests;
+			productName = DAPiOSAppTests;
+			productReference = 816150632DE8735E00B0281D /* DAPiOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8161506C2DE8735E00B0281D /* DAPiOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8161507B2DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSAppUITests" */;
+			buildPhases = (
+				816150692DE8735E00B0281D /* Sources */,
+				8161506A2DE8735E00B0281D /* Frameworks */,
+				8161506B2DE8735E00B0281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8161506F2DE8735E00B0281D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				816150702DE8735E00B0281D /* DAPiOSAppUITests */,
+			);
+			name = DAPiOSAppUITests;
+			productName = DAPiOSAppUITests;
+			productReference = 8161506D2DE8735E00B0281D /* DAPiOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680882C82DBF391D00A5DEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					680882CD2DBF391D00A5DEF9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					680882D32DBF391D00A5DEF9 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					680882E22DBF391E00A5DEF9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 680882D32DBF391D00A5DEF9;
+					};
+					680882EC2DBF391E00A5DEF9 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 680882D32DBF391D00A5DEF9;
+					};
+					6850CEB82DD36A860080F5FD = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					6850CEC82DD36A870080F5FD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6850CEB82DD36A860080F5FD;
+					};
+					6850CED22DD36A870080F5FD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 6850CEB82DD36A860080F5FD;
+					};
+					816150562DE8735D00B0281D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					816150622DE8735E00B0281D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 816150562DE8735D00B0281D;
+					};
+					8161506C2DE8735E00B0281D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 816150562DE8735D00B0281D;
+					};
+				};
+			};
+			buildConfigurationList = 680882CB2DBF391D00A5DEF9 /* Build configuration list for PBXProject "DAP.test" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 680882C72DBF391D00A5DEF9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = 680882CF2DBF391D00A5DEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680882CD2DBF391D00A5DEF9 /* DAP.test */,
+				680882D32DBF391D00A5DEF9 /* DAP.test Watch App */,
+				680882E22DBF391E00A5DEF9 /* DAP.test Watch AppTests */,
+				680882EC2DBF391E00A5DEF9 /* DAP.test Watch AppUITests */,
+				6850CEB82DD36A860080F5FD /* DAP_MacLogger */,
+				6850CEC82DD36A870080F5FD /* DAP_MacLoggerTests */,
+				6850CED22DD36A870080F5FD /* DAP_MacLoggerUITests */,
+				816150562DE8735D00B0281D /* DAPiOSApp */,
+				816150622DE8735E00B0281D /* DAPiOSAppTests */,
+				8161506C2DE8735E00B0281D /* DAPiOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		680882CC2DBF391D00A5DEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		680882D22DBF391D00A5DEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		680882E12DBF391E00A5DEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		680882EB2DBF391E00A5DEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CEB72DD36A860080F5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CEC72DD36A870080F5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CED12DD36A870080F5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		816150552DE8735D00B0281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		816150612DE8735E00B0281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8161506B2DE8735E00B0281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680882D02DBF391D00A5DEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		680882DF2DBF391E00A5DEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		680882E92DBF391E00A5DEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CEB52DD36A860080F5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CEC52DD36A870080F5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		6850CECF2DD36A870080F5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		816150532DE8735D00B0281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		8161505F2DE8735E00B0281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		816150692DE8735E00B0281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		680882D72DBF391D00A5DEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 680882D62DBF391D00A5DEF9 /* PBXContainerItemProxy */;
+		};
+		680882E52DBF391E00A5DEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 680882E42DBF391E00A5DEF9 /* PBXContainerItemProxy */;
+		};
+		680882EF2DBF391E00A5DEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 680882EE2DBF391E00A5DEF9 /* PBXContainerItemProxy */;
+		};
+		6850CECB2DD36A870080F5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6850CEB82DD36A860080F5FD /* DAP_MacLogger */;
+			targetProxy = 6850CECA2DD36A870080F5FD /* PBXContainerItemProxy */;
+		};
+		6850CED52DD36A870080F5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6850CEB82DD36A860080F5FD /* DAP_MacLogger */;
+			targetProxy = 6850CED42DD36A870080F5FD /* PBXContainerItemProxy */;
+		};
+		6850CEEA2DD36C480080F5FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 6850CEE92DD36C480080F5FD /* PBXContainerItemProxy */;
+		};
+		816150652DE8735E00B0281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816150562DE8735D00B0281D /* DAPiOSApp */;
+			targetProxy = 816150642DE8735E00B0281D /* PBXContainerItemProxy */;
+		};
+		8161506F2DE8735E00B0281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816150562DE8735D00B0281D /* DAPiOSApp */;
+			targetProxy = 8161506E2DE8735E00B0281D /* PBXContainerItemProxy */;
+		};
+		816150802DE8750900B0281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 8161507F2DE8750900B0281D /* PBXContainerItemProxy */;
+		};
+		816150832DE8752900B0281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 680882D32DBF391D00A5DEF9 /* DAP.test Watch App */;
+			targetProxy = 816150822DE8752900B0281D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		680882F52DBF391E00A5DEF9 /* Debug configuration for PBXProject "DAP.test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		680882F62DBF391E00A5DEF9 /* Release configuration for PBXProject "DAP.test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		680882F82DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DAP.test Watch App/DAP.test Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP.test;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "bashir.dap.motion.data.DAP-test";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		680882F92DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch App" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DAP.test Watch App/DAP.test Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP.test;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "bashir.dap.motion.data.DAP-test";
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		680882FC2DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP.test;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bashir.dap.motion.data.DAP.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		680882FD2DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				INFOPLIST_KEY_CFBundleDisplayName = DAP.test;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bashir.dap.motion.data.DAP.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680882FF2DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP.test Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP.test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		680883002DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch AppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP.test Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP.test Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		680883022DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DAP.test Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		680883032DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch AppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DAP.test Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		6850CEDC2DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLogger" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DAP_MacLogger/DAP_MacLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLogger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6850CEDD2DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLogger" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DAP_MacLogger/DAP_MacLogger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLogger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6850CEDF2DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLoggerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP_MacLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP_MacLogger";
+			};
+			name = Debug;
+		};
+		6850CEE02DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLoggerTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAP_MacLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAP_MacLogger";
+			};
+			name = Release;
+		};
+		6850CEE22DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLoggerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DAP_MacLogger;
+			};
+			name = Debug;
+		};
+		6850CEE32DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLoggerUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-MacLoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DAP_MacLogger;
+			};
+			name = Release;
+		};
+		816150762DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DAPiOSApp/DAPiOSApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816150772DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DAPiOSApp/DAPiOSApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bashir.dap.motion.data.DAP-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816150792DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinsuguru.DAPiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAPiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAPiOSApp";
+			};
+			name = Debug;
+		};
+		8161507A2DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinsuguru.DAPiOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAPiOSApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DAPiOSApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8161507C2DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinsuguru.DAPiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAPiOSApp;
+			};
+			name = Debug;
+		};
+		8161507D2DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBBGM48FK4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kinsuguru.DAPiOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAPiOSApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680882CB2DBF391D00A5DEF9 /* Build configuration list for PBXProject "DAP.test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680882F52DBF391E00A5DEF9 /* Debug configuration for PBXProject "DAP.test" */,
+				680882F62DBF391E00A5DEF9 /* Release configuration for PBXProject "DAP.test" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		680882F72DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680882F82DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch App" */,
+				680882F92DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch App" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		680882FB2DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680882FC2DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test" */,
+				680882FD2DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		680882FE2DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680882FF2DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch AppTests" */,
+				680883002DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch AppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		680883012DBF391E00A5DEF9 /* Build configuration list for PBXNativeTarget "DAP.test Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680883022DBF391E00A5DEF9 /* Debug configuration for PBXNativeTarget "DAP.test Watch AppUITests" */,
+				680883032DBF391E00A5DEF9 /* Release configuration for PBXNativeTarget "DAP.test Watch AppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6850CEDB2DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6850CEDC2DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLogger" */,
+				6850CEDD2DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLogger" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6850CEDE2DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6850CEDF2DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLoggerTests" */,
+				6850CEE02DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLoggerTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6850CEE12DD36A870080F5FD /* Build configuration list for PBXNativeTarget "DAP_MacLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6850CEE22DD36A870080F5FD /* Debug configuration for PBXNativeTarget "DAP_MacLoggerUITests" */,
+				6850CEE32DD36A870080F5FD /* Release configuration for PBXNativeTarget "DAP_MacLoggerUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		816150752DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816150762DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSApp" */,
+				816150772DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		816150782DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816150792DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSAppTests" */,
+				8161507A2DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSAppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8161507B2DE8735E00B0281D /* Build configuration list for PBXNativeTarget "DAPiOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8161507C2DE8735E00B0281D /* Debug configuration for PBXNativeTarget "DAPiOSAppUITests" */,
+				8161507D2DE8735E00B0281D /* Release configuration for PBXNativeTarget "DAPiOSAppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680882C82DBF391D00A5DEF9 /* Project object */;
+}
