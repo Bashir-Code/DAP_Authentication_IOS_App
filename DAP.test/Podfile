@@ -1,0 +1,15 @@
+platform :ios, '13.0'
+
+target 'DAPiOSApp' do
+  use_frameworks!
+
+  # Put pods here
+  # pod 'AzureStorageBlob', '~> 1.0.0'  <-- We will fix this in step 2
+
+  target 'DAPiOSAppTests' do
+    inherit! :search_paths
+  end
+
+  target 'DAPiOSAppUITests' do
+  end
+end

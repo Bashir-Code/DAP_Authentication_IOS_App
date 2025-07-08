@@ -2,16 +2,16 @@
 //  CSVLogger.swift
 //  DAP.test
 //
-//  Created by 金杰 on 2025/05/29.
+//  Created by Bashir on 2025/05/29.
 //
-
 // DAP.test Watch App/CSVLogger.swift
+
 import Foundation
 
 class CSVLogger {
     static let shared = CSVLogger()
     
-    private let fileName = "motion_log.csv"
+    private let fileName = "User01_GestureZ_Sitting_NormalSpeed_Rep05.csv"
     
     func save(x: Double, y: Double, z: Double, type: String = "accel") {
         let timestamp = Date().timeIntervalSince1970
@@ -41,3 +41,7 @@ class CSVLogger {
         return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
     }
 }
+
+
+
+
